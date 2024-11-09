@@ -1,3 +1,5 @@
+import { GiOrange } from 'react-icons/gi';
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -12,7 +14,8 @@ export default {
     extend: {
        colors: {
         gray: ['#F8F9FB', ],
-        violet:["#A435F3"]
+        violet: ["#A435F3"],
+        orange:["#F3CA8C"]
       },
     },
   },

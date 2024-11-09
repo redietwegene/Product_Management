@@ -1,18 +1,21 @@
 <template>
-    <div>
+    <div class="  p-14 mr-80 ml-52">
         <h6 class="font-bold">This course includes:</h6>
         <div class="flex gap-8">
             <div>
                 <p>
-                
+
                     1.5 hours on-demand video
                 </p>
                 <p>2 practice tests</p>
             </div>
             <div>
-                <p>Access on mobile and TV</p>
                 <p>
-                    <Icon  name="hugeicons:award-01" /> Certificate of completion
+                    <font-awesome-icon icon="mobile-notch" />
+                    Access on mobile and TV
+                </p>
+                <p>
+                    <Icon name="hugeicons:award-01" /> Certificate of completion
                 </p>
             </div>
         </div>

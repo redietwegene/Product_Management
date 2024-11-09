@@ -1,14 +1,11 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-// export default defineNuxtConfig({
-//   compatibilityDate: '2024-04-03',
-//   devtools: { enabled: true }
-// })
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  // modules: ['nuxt-icon'],
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
+  
   css: ['~/assets/css/main.css'],
+  
+  plugins: ['~/plugins/font-awesome.js'],
 
   postcss: {
     plugins: {
@@ -18,16 +15,10 @@ export default defineNuxtConfig({
   },
 
   modules: ['@vesp/nuxt-fontawesome', 'nuxt-icon'],
+
   fontawesome: {
     icons: {
-      solid: ['cog'],
-      
-    }
+      solid: ['cog', 'mobile-alt'], // Example icons, adjust as needed
+    },
   }
-//   fontawesome: {
-//  icons:{
-//   solid: true,
-//   brands: true
-//  }
-// }
 })

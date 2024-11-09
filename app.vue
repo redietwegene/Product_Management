@@ -1,6 +1,7 @@
 <template>
-  <div>
-    <NuxtRouteAnnouncer />
-    <NuxtWelcome />
+  <div >
+    <Course_Content/>
+   
+     <!-- <Header /> -->
   </div>
 </template>

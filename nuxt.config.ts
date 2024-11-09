@@ -5,6 +5,7 @@
 // })
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  // modules: ['nuxt-icon'],
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
@@ -16,7 +17,13 @@ export default defineNuxtConfig({
     },
   },
 
-  modules: ['@vesp/nuxt-fontawesome'],
+  modules: ['@vesp/nuxt-fontawesome', 'nuxt-icon'],
+  fontawesome: {
+    icons: {
+      solid: ['cog'],
+      
+    }
+  }
 //   fontawesome: {
 //  icons:{
 //   solid: true,

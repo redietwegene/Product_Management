@@ -10,27 +10,27 @@ import { Icon } from '@iconify/vue';
             <div class="flex gap-3 flex-col">
                 <div class="flex gap-2 items-start">
                     <Icon icon="material-symbols:check-rounded" width="20" />
-                    <h2>Create irresistibly engaging activities that improve retention </h2>
+                    <h2>An Overview of the Product Manager's Role and Who They Partner With</h2>
                 </div>
-                <div class="flex gap-2 items-start">
+                <div class="flex   gap-2 items-start">
                     <Icon icon="material-symbols:check-rounded" width="20" />
-                    <h2>Learn how to remix your favorite games for learning</h2>
+                    <h2>A Deep Dive into Each Phase of the Product Management Life Cycle</h2>
                 </div>
 
-                <div class="flex gap-2 items-start">
-                    <Icon icon="material-symbols:check-rounded" width="20" />
-                    <h2>Learn 25+ game mechanics</h2>
-                </div>
+
+
+
             </div>
             <div class="flex gap-3 flex-col">
                 <div class="flex gap-2  text-[10pt] items-start">
                     <Icon icon="material-symbols:check-rounded" width="20" />
-                    <h2>See how we've creating learning games for some of the world's </h2>
+                    <h2>How to Build Products that Deliver Customer and Business Valu </h2>
                 </div>
-                <div class="flex gap-2 items-start">
+                <div class="flex gap-2 items-start ">
                     <Icon icon="material-symbols:check-rounded" width="20" />
-                    <h2>Learn how to remix your favorite games for learning</h2>
+                    <h2>Common Challenges in Product Management And How to Overcome Them </h2>
                 </div>
+
             </div>
         </div>
     </div>

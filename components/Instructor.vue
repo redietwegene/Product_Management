@@ -8,36 +8,43 @@ import { Icon } from "@iconify/vue";
         <h1 class="text-[17pt] font-extrabold">Instructor</h1>
         <div>
             <a href="" class="text-[#4c26b4] font-extrabold text-[14pt] underline">
-                Laura Pickel</a>
+                DaylightAcademy</a>
             <p class="text-[13pt] text-slate-700">
-                Learning Experience Designer at Lyft
+                Top-rated Instructor on Udemy
             </p>
         </div>
         <div class="flex gap-5 mt-2">
-            <img src="/images/course3.png" class="h-28 w-28" />
+            <img src="/images/download.jpg" class="h-28 w-28" />
             <div class="flex flex-col gap-2 ">
                 <div class="flex items-center gap-3">
                     <Icon icon="ri:star-s-fill" />
-                    <p>4.4 Instructor Rating</p>
+                    <p>4.6 Instructor Rating</p>
                 </div>
                 <div class="flex items-center gap-3">
                     <Icon icon="iconamoon:certificate-badge-fill"></Icon>
-                    <p>54,719 Reviews</p>
+                    <p>344 Reviews</p>
                 </div>
                 <div class="flex items-center gap-3">
                     <Icon icon="material-symbols:person-rounded"></Icon>
-                    <p>109,491 Students</p>
+                    <p>956 Students</p>
                 </div>
                 <div class="flex items-center gap-3">
                     <Icon icon="material-symbols:play-circle"></Icon>
-                    <p>3 Courses</p>
+                    <p>6 Courses</p>
                 </div>
             </div>
         </div>
         <div>
-            <em>3 parts design nerd, 4 parts passionate educator, 2 parts biker extraordinaire</em>
-            
-            
+            <p>Hello there, I am proud to be teaching here on Udemy.
+                <br/>
+
+                Feel free to reach out to me if you have any issue with any of my courses that you enroll in. I do
+                welcome feedback. My courses are well structured to give you the best outcome you so desire.
+                <br/>
+
+                See you on the other side!</p>
+
+
         </div>
     </div>
 </template>

@@ -4,13 +4,22 @@ import { Icon } from "@iconify/vue";
 
 <template>
     <div class="bg-[#2e2c2c] h-[80vh] w-screen text-white">
+        <div class="flex justify-between">
+            <p>
+                Teach the World online
+            </p>
+            <p>Create an online video courses .reach students across the globe .and earn money</p>
+            <div>
+                <button class="border-white">Teach on udemy</button>
+            </div>
+        </div>
         <div class="w-full flex gap-10 h-[20%] justify-between items-center px-16 py-5">
             <h1 class="font-extrabold">
                 Top companies choose
                 <strong class="text-[#c0b6d6] text-[15pt]"> Udemy Business </strong>to
                 build in-demand career skills.
             </h1>
-            <img src="../public/logos.png" class="w-[45vw] h-[55%]" />
+
         </div>
         <div class="border-[0.54px] border-[#7b7b7b] w-screen"></div>
         <div class="flex justify-between px-16 py-5 ">

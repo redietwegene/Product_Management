@@ -24,7 +24,7 @@
         <div class="flex justify-between">
             <div class="flex justify-start gap-4 p-3">
                 <div>
-                    <img src="/images/course1.jpg" alt="">
+                    <img src="/images/course2.jpg" alt="">
                 </div>
                 <div class="">
                     <p class=" font-bold text-xl">Product Management Masterclass</p>
@@ -44,7 +44,7 @@
         <div class="flex justify-between">
             <div class="flex justify-start gap-4 p-3">
                 <div>
-                    <img src="/images/course1.jpg" alt="">
+                    <img src="/images/course2.jpg" alt="">
                 </div>
                 <div class="">
                     <p class=" font-bold text-xl ">Product Management Masterclass</p>

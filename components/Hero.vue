@@ -47,20 +47,28 @@ onUnmounted(() => {
         </div>
         <div class="flex flex-col gap-3">
             <div class="flex gap-2 items-center">
-                <img src="/images/stars.jpg" alt="stars" class="h-[15px]" />
-                <a href="" class="text-[#cecaff] font-extrabold text-[10pt] underline">(53,724 ratings)</a>
-                <p class="text-[10pt] font-extrabold">105,243 students</p>
+                <p class=" text-sm w-24 flex justify-center font-semibold bg-orange-0 text-black">Highest Rated</p>
+                <div class="flex items-center font-normal text-[11pt]">
+                    <Icon icon="ri:star-s-fill" class="text-yellow-500" />
+                    <Icon icon="ri:star-s-fill" class="text-yellow-500" />
+                    <Icon icon="ri:star-s-fill" class="text-yellow-500" />
+                    <Icon icon="ri:star-s-fill" class="text-yellow-500" />
+                    <Icon icon="ri:star-s-fill" class="text-yellow-500" />
+
+                </div>
+                <a href="" class="text-[#cecaff] font-extrabold text-[10pt] underline">(12 ratings)</a>
+                <p class="text-[10pt] font-extrabold">27 students</p>
             </div>
             <p class="text-[10pt]">Created by <a href=""
                     class="text-[#cecaff]  text-[10pt] underline">DaylightAcademy</a></p>
-            <div class="flex space-x-2  text-[9pt] font-bold items-center">
+            <div class="flex space-x-2  font-bold items-center">
                 <Icon icon="material-symbols-light:release-alert-rounded" width="18" class="text-white" />
-                <p>Last updated 1/2021</p>
+                <p>Last updated 10/2024</p>
                 <Icon icon="mynaui:globe" width="18" class="text-white" />
                 <p>English</p>
                 <Icon icon="ic:outline-keyboard" width="18" class="text-white" />
 
-                <p> English [CC], Arabic [Auto], <a href="" class="text-[#cecaff] underline">13 more</a></p>
+                <p>  English [Auto], </p>
             </div>
         </div>
     </div>

@@ -14,12 +14,13 @@ import { ref, computed } from "vue";
             </h1>
             <div class="flex">
                 <div class="w-64">
-                    <img src="../public/game.png" class="h-30 w-60" />
+                    <img src="/images/download.jpg" class="h-30 w-60" />
                     <h1 class="font-extrabold text-[13pt]">
-                        Gamification for Learning, Performance & Change
+
+                        ChatGPT for Marketing: Boost Your Content...
                     </h1>
 
-                    <p class="text-[10pt] text-[#747373]">Jesse Harris, SPHR,Laura Pickel</p>
+                    <p class="text-[10pt] text-[#747373]">DaylightAcademy</p>
                     <div class="flex items-center font-normal text-[11pt]">
                         <span class="font-extrabold">4.4</span>
                         <Icon icon="ri:star-s-fill" class="text-yellow-500" />
@@ -27,21 +28,21 @@ import { ref, computed } from "vue";
                         <Icon icon="ri:star-s-fill" class="text-yellow-500" />
                         <Icon icon="ri:star-s-fill" class="text-yellow-500" />
                         <Icon icon="ri:star-s-fill" class="text-yellow-500" />
-                        <span class="text-[11pt] text-[#747373]">(53,724)</span>
+                        <span class="text-[11pt] text-[#747373]">(180)</span>
                     </div>
-                    <p class="text-[10pt] text-[#747373]">1.5 total hours . 27 lectures .Beginner</p>
+                    <p class="text-[10pt] text-[#747373]">1.5 total hours . 9 lectures .All level</p>
 
                     <h1 class="font-extrabold text-[15pt]">$39.99</h1>
                 </div>
                 <div class="w-64">
-                    <img src="../public/pic.png" class="h-30 w-60" />
+                    <img src="/images/download.jpg" class="h-30 w-60" />
                     <h1 class="font-extrabold text-[13pt]">
-                        Gamification for Learning, Performance & Change
+                        Python Programming for Beginners :Learn python in ...
                     </h1>
 
-                    <p class="text-[10pt] text-[#747373]">Jesse Harris, SPHR,Laura Pickel</p>
+                    <p class="text-[10pt] text-[#747373]">DaylightAcademy</p>
                     <div class="flex items-center font-normal text-[11pt]">
-                        <span class="font-extrabold">4.4</span>
+                        <span class="font-extrabold">4.9</span>
                         <Icon icon="ri:star-s-fill" class="text-yellow-500" />
                         <Icon icon="ri:star-s-fill" class="text-yellow-500" />
                         <Icon icon="ri:star-s-fill" class="text-yellow-500" />
@@ -49,17 +50,17 @@ import { ref, computed } from "vue";
                         <Icon icon="ri:star-s-fill" class="text-yellow-500" />
                         <span class="text-[11pt] text-[#747373]">(53,724)</span>
                     </div>
-                    <p class="text-[10pt] text-[#747373]">1.5 total hours . 27 lectures .Beginner</p>
+                    <p class="text-[10pt] text-[#747373]">3 total hours . 19 lectures .Beginner</p>
 
-                    <h1 class="font-extrabold text-[15pt]">$39.99</h1>
+                    <h1 class="font-extrabold text-[15pt]">$59.99</h1>
                 </div>
                 <div class="w-64">
-                    <img src="../public/game.png" class="h-30 w-60" />
+                    <img src="/images/download.jpg" class="h-30 w-60" />
                     <h1 class="font-extrabold text-[13pt]">
-                        Gamification for Learning, Performance & Change
+                        Microsoft Excel :Microsoft Excel for Data Analaysis
                     </h1>
 
-                    <p class="text-[10pt] text-[#747373]">Jesse Harris, SPHR,Laura Pickel</p>
+                    <p class="text-[10pt] text-[#747373]">DaylightAcademy</p>
                     <div class="flex items-center font-normal text-[11pt]">
                         <span class="font-extrabold">4.4</span>
                         <Icon icon="ri:star-s-fill" class="text-yellow-500" />
@@ -67,11 +68,11 @@ import { ref, computed } from "vue";
                         <Icon icon="ri:star-s-fill" class="text-yellow-500" />
                         <Icon icon="ri:star-s-fill" class="text-yellow-500" />
                         <Icon icon="ri:star-s-fill" class="text-yellow-500" />
-                        <span class="text-[11pt] text-[#747373]">(53,724)</span>
+                        <span class="text-[11pt] text-[#747373]">(76)</span>
                     </div>
-                    <p class="text-[10pt] text-[#747373]">1.5 total hours . 27 lectures .Beginner</p>
+                    <p class="text-[10pt] text-[#747373]">2 total hours . 12 lectures .All Levels</p>
 
-                    <h1 class="font-extrabold text-[15pt]">$39.99</h1>
+                    <h1 class="font-extrabold text-[15pt]">$49.99</h1>
                 </div>
             </div>
         </div>

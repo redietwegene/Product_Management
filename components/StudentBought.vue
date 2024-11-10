@@ -5,8 +5,8 @@ import { ref, computed } from 'vue';
 // Array of students with their details
 const students = [
     { id: 1, imageSrc: "/images/course3.png", name: "Design Thinking in 3 Steps", rating: "4.4", reviews: "126,180", price: "$89", hours: "1.5 total hours", updateDate: "6/2020" },
-    { id: 2, imageSrc: "/images/course3.png", name: "Creative Problem Solving", rating: "4.6", reviews: "150,200", price: "$89", hours: "2 hours", updateDate: "8/2020" },
-    { id: 3, imageSrc: "/images/course3.png", name: "Innovative Thinking Techniques", rating: "4.3", reviews: "100,150", price: "$89", hours: "3 hours", updateDate: "5/2020" },
+    { id: 2, imageSrc: "/images/course2.jpg", name: "Creative Problem Solving", rating: "4.6", reviews: "150,200", price: "$89", hours: "2 hours", updateDate: "8/2020" },
+    { id: 3, imageSrc: "/images/course1.jpg", name: "Innovative Thinking Techniques", rating: "4.3", reviews: "100,150", price: "$89", hours: "3 hours", updateDate: "5/2020" },
     { id: 4, imageSrc: "/images/course3.png", name: "Business Strategy Mastery", rating: "4.7", reviews: "200,300", price: "$89", hours: "4 hours", updateDate: "7/2020" },
     { id: 5, imageSrc: "/images/course3.png", name: "Marketing Basics", rating: "4.5", reviews: "180,250", price: "$89", hours: "2.5 hours", updateDate: "9/2020" },
     { id: 6, imageSrc: "/images/course3.png", name: "Data Analytics for Beginners", rating: "4.8", reviews: "300,000", price: "$89", hours: "5 hours", updateDate: "10/2020" },
@@ -35,7 +35,7 @@ const toggleShowMore = () => {
                 class="grid grid-cols-[1fr,4fr,1fr,1fr,1fr,1fr] gap-4 py-[5px] items-center w-full pb-3 border-b-[1.3px] border-gray-200">
 
                 <div class="h-20 w-20">
-                    <img src="/images/course3.png" alt="student-image" class="w-full h-full object-cover" />
+                    <img src="/images/course2.jpg" alt="student-image" class="w-full h-full object-cover" />
                 </div>
 
                 <div class=" text-[13pt]">

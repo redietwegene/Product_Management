@@ -1,12 +1,28 @@
 
 <script setup>
+import { ref, onMounted } from 'vue';
 import { Icon } from '@iconify/vue';
+
+const isScrolled = ref(false);
+
+const handleScroll = () => {
+    const scrollThreshold = 100;
+    isScrolled.value = window.scrollY > scrollThreshold;
+};
+
+onMounted(() => {
+    window.addEventListener('scroll', handleScroll);
+});
+
+onUnmounted(() => {
+    window.removeEventListener('scroll', handleScroll);
+});
 </script>
 
 <template>
     <div class=" flex gap-3 flex-col shadow-lg border border-gray-300 pb-8">
         <div>
-            <img src="/images/girl.jpg " class="h-[250px] ">
+            <img src="/images/woman.jpg " class="h-[250px] ">
         </div>
 
         <div class="pl-5 pr-5">

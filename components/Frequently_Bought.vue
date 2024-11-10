@@ -44,7 +44,7 @@
         <div class="flex justify-between">
             <div class="flex justify-start gap-4 p-3">
                 <div>
-                    <img src="/images/course2.jpg" alt="">
+                    <img class="w-[240px]" src="/images/download.jpg" alt="">
                 </div>
                 <div class="">
                     <p class=" font-bold text-xl ">Product Management Masterclass</p>

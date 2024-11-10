@@ -18,12 +18,12 @@
 
         </div>
 
-        <div class="border pb-3 pr-2 w-[750px]">
+        <div class=" border border-slate-300 w-[750px]">
             <transition name="fade">
-                <div class="mt-4">
+                <div class="">
                     <div v-for="(section, index) in (showAll ? sections : limitedSections)" :key="index"
                         class="section">
-                        <div class="collapsible cursor-pointer p-2 mt-2 rounded flex justify-between pr-6 bg-gray-0"
+                        <div class="collapsible cursor-pointer p-6  flex justify-between pr-6 border  border-slate-400  bg-gray-0"
                             @click="toggleSection(index)">
                             <div>
                                 <span class="pr-3 font-bold">{{ section.isActive ? 'v' : '^' }}</span>

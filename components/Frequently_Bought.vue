@@ -1,5 +1,5 @@
 <template>
-    <div class="border   p-14 mr-96 ml-56">
+    <div class="border ml-44 w-[800px]">
         <h1 class="font-bold text-3xl p-2">Frequently Bought Together</h1>
         <div class="flex justify-between">
             <div class="flex justify-start gap-4 p-3">

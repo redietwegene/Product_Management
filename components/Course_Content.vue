@@ -1,42 +1,24 @@
 <template>
-    <div class="  p-14 mr-80 ml-52">
-        <h6 class="font-bold">This course includes:</h6>
-        <div class="flex gap-8">
-            <div>
-                <p>
-
-                    1.5 hours on-demand video
-                </p>
-                <p>2 practice tests</p>
-            </div>
-            <div>
-                <p>
-                   
-                    Access on mobile and TV
-                </p>
-                <p>
-                    <Icon name="hugeicons:award-01" /> Certificate of completion
-                </p>
-            </div>
-        </div>
-
+    <div class="p-14 ml-36">
         <div>
-            <h4 class="font-bold text-xl">Course content</h4>
-        </div>
+            <h4 class="font-bold text-2xl pb-5">Course content</h4>
+            <div class="flex gap-72 ">
+                <p class="">
+                    {{ sections.length }} sections • {{ totalLectures }} lectures • {{ formattedTotalTime }} Total
+                    length
+                </p>
+                <div>
+                    <button @click="toggleCollapse" class="text-violet-0 font-bold p-2 rounded">
+                        {{ showAll ? 'Collapse all sections' : 'Expand all sections' }}
+                    </button>
 
-        <div class="flex justify-between">
-            <p class="font-thin">
-                {{ sections.length }} sections • {{ totalLectures }} lectures • {{ formattedTotalTime }}
-            </p>
-            <div>
-                <button @click="toggleCollapse" class="text-violet-0 font-bold p-2 rounded">
-                    {{ showAll ? 'Collapse all sections' : 'Expand all sections' }}
-                </button>
-
+                </div>
             </div>
+
+
         </div>
 
-        <div class="border pb-3 pr-2">
+        <div class="border pb-3 pr-2 w-[750px]">
             <transition name="fade">
                 <div class="mt-4">
                     <div v-for="(section, index) in (showAll ? sections : limitedSections)" :key="index"

@@ -30,8 +30,8 @@ onUnmounted(() => {
             <AddToCart />
         </div>
     </div>
-    <div class=" bg-[#161515] mt-[15px] w-screen text-white flex flex-col gap-7 py-7 pl-20 font-Zeitung">
-        <div class="text-[10pt] font-extrabold flex items-center space-x-2 text-[#d2cff6]">
+    <div class=" bg-[#161515] mt-[13px] w-screen text-white flex flex-col gap-7 py-7 pl-44 ">
+        <div class="text-[12pt] font-extrabold flex items-center space-x-2 text-violet-1">
             <a href="#">Business</a>
             <Icon icon="mdi:chevron-right" width="16" class="text-white" />
             <a href="#">Business Strategy</a>
@@ -40,10 +40,9 @@ onUnmounted(() => {
         </div>
 
         <div class="flex flex-col justify-center gap-2">
-            <h1 class="text-[22pt] font-extrabold w-[50%]">Design Thinking for Beginners: Develop Innovative Ideas</h1>
-            <h2 class="font-extrabold w-[60%]">
-                Apply the five-step design thinking process to identify and creatively
-                solve problems using a human-centered approach.
+            <h1 class="text-[22pt] font-extrabold w-[50%]">Product Management Masterclass: Become a Product Manager</h1>
+            <h2 class=" w-[60%]">
+                A Complete Masterclass in Building a Successful Career in Product Management As A Product Manager
             </h2>
         </div>
         <div class="flex flex-col gap-3">
@@ -53,7 +52,7 @@ onUnmounted(() => {
                 <p class="text-[10pt] font-extrabold">105,243 students</p>
             </div>
             <p class="text-[10pt]">Created by <a href=""
-                    class="text-[#cecaff] font-extrabold text-[10pt] underline">Laura Pickel</a></p>
+                    class="text-[#cecaff]  text-[10pt] underline">DaylightAcademy</a></p>
             <div class="flex space-x-2  text-[9pt] font-bold items-center">
                 <Icon icon="material-symbols-light:release-alert-rounded" width="18" class="text-white" />
                 <p>Last updated 1/2021</p>

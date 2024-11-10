@@ -31,8 +31,15 @@ onUnmounted(() => {
     <ScrolledHeader v-else />
     <Hero />
     <Learn/>
+    <Explore/>
     <Course_Content />
+    <Requirement/>
+    <StudentBought/>
     <Frequently_Bought />
+    <Instructor/>
+    <CourseRating/>
+    <MoreCourses/>
+    <Footer/>
 
 
   </div>

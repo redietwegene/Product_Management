@@ -5,7 +5,6 @@ export default defineNuxtConfig({
   
   css: ['~/assets/css/main.css'],
   
-  plugins: ['~/plugins/font-awesome.js'],
 
   postcss: {
     plugins: {
@@ -14,11 +13,7 @@ export default defineNuxtConfig({
     },
   },
 
-  modules: ['@vesp/nuxt-fontawesome', 'nuxt-icon'],
+  modules: [ 'nuxt-icon'],
 
-  fontawesome: {
-    icons: {
-      solid: ['cog', 'mobile-alt'], // Example icons, adjust as needed
-    },
-  }
+  
 })

@@ -18,6 +18,10 @@ export default {
         orange:["#F3CA8C"]
       },
     },
+     fontFamily:{
+      Zeitung: "Zeitung",
+      Montserrat: "Montserrat , sans-serif",
+    },
   },
   plugins: [],
 }

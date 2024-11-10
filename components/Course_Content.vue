@@ -11,7 +11,7 @@
             </div>
             <div>
                 <p>
-                    <font-awesome-icon icon="mobile-notch" />
+                   
                     Access on mobile and TV
                 </p>
                 <p>

@@ -24,13 +24,13 @@ onUnmounted(() => {
     <div :class="{
         'fixed top-[20px]': isScrolled,
         'fixed top-[110px]': !isScrolled
-    }" class="right-[80px] z-50 w-[28%] h-screen bg-white transition-all">
+    }" class="right-[170px] z-50 w-[22%] h-screen bg-white transition-all">
 
         <div>
             <AddToCart />
         </div>
     </div>
-    <div class=" bg-[#161515] mt-[13px] w-screen text-white flex flex-col gap-7 py-7 pl-44 ">
+    <div class=" bg-[#161515] mt-[13px] w-screen text-white flex flex-col gap-7 py-7 pl-52 ">
         <div class="text-[12pt] font-extrabold flex items-center space-x-2 text-violet-1">
             <a href="#">Business</a>
             <Icon icon="mdi:chevron-right" width="16" class="text-white" />

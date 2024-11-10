@@ -26,7 +26,9 @@
                         <div class="collapsible cursor-pointer p-2 mt-2 rounded flex justify-between pr-6 bg-gray-0"
                             @click="toggleSection(index)">
                             <div>
-                                <span class="pr-3 font-bold">{{ section.isActive ? 'v' : '^' }}</span>
+                                <span class="pr-3 font-bold">
+                                    <!-- <Icon :icon="section.isActive ? 'icons8:angle-down' : 'icons8:angle-up'" /> -->
+                                </span>
                                 <span class="font-bold">{{ section.title }}</span>
                             </div>
                             <span>
@@ -39,6 +41,8 @@
                             <div v-if="section.isActive" class="content mt-2 p-2 rounded">
                                 <div v-for="(content, i) in section.contents" :key="i"
                                     class="flex justify-between pr-6 ">
+                                    <Icon icon="foundation:monitor" width="20" />
+
                                     <p class="font-light">{{ content.title }}</p>
                                     <p class="text-neutral-500  font-thin">{{ formatTime(content.duration) }}</p>
                                 </div>
@@ -52,39 +56,42 @@
 </template>
 
 <script>
+import { Icon } from "@iconify/vue";
 export default {
     name: 'CollapsableCard',
     data() {
         return {
-            showAll: false, // Controls if all sections are shown or only the first two
+            showAll: false, 
             sections: [
                 {
                     title: 'Introduction to Product Management',
                     contents: [
-                        { title: 'Lecture 1.1: Overview', duration: 330 }, // duration in seconds
-                        { title: 'Lecture 1.2: Basics', duration: 620 },
-                        { title: 'Lecture 1.3: Getting Started', duration: 900 },
-                        { title: 'Lecture 1.4: First Steps', duration: 480 },
+                        { title: 'Who is a Product Manager', duration: 330 }, 
+                        { title: 'The Roles of  a Product Manager', duration: 620 },
+                        { title: 'Challenges in Product Management', duration: 900 },
+                        { title: 'Tools for Product Managers', duration: 480 },
                     ],
                     isActive: false,
                 },
                 {
                     title: 'The Product Management Life Cycle',
                     contents: [
-                        { title: 'Lecture 2.1: Deep Dive', duration: 1200 },
-                        { title: 'Lecture 2.2: Advanced Techniques', duration: 900 },
-                        { title: 'Lecture 2.3: Optimization', duration: 1500 },
-                        { title: 'Lecture 2.4: Case Studies', duration: 600 },
-                        { title: 'Lecture 2.5: Conclusion', duration: 300 },
+                        { title: 'What is the Product Management Life cycle', duration: 1200 },
+                        { title: 'How Product Managers Guide a Product Through Its Life Cycle', duration: 900 },
+                      
                     ],
                     isActive: false,
                 },
                 {
                     title: 'The Product Management Life Cycle Phases',
                     contents: [
-                        { title: 'Lecture 3.1: Summary', duration: 600 },
-                        { title: 'Lecture 3.2: Final Thoughts', duration: 720 },
-                        { title: 'Lecture 3.3: Q&A', duration: 420 },
+                        { title: 'phase 0:Start with an Outcome', duration: 600 },
+                        { title: 'Fisrt Assesment', duration: 720 },
+                        { title: 'Phase 1:Discover -understanding Your Customers', duration: 420 },
+                        { title: 'Second Assesment:', duration: 500 },
+                        { title: 'Phase 2: Validation -Finding the Right Solution ', duration: 620 },
+                        { title: 'Phase 3: Evaluate', duration: 800 },
+                        { title: 'Phase 4: Iterate', duration: 720 },
                     ],
                     isActive: false,
                 },
@@ -93,7 +100,7 @@ export default {
     },
     computed: {
         limitedSections() {
-            return this.sections.slice(0, 2);
+            return this.sections.slice(0, 3);
         },
         totalLectures() {
             return this.sections.reduce((total, section) => total + section.contents.length, 0);

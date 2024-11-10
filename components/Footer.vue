@@ -4,15 +4,21 @@ import { Icon } from "@iconify/vue";
 
 <template>
     <div class="bg-[#2e2c2c] h-[80vh] w-screen text-white">
-        <div class="flex justify-between">
-            <p>
-                Teach the World online
-            </p>
-            <p>Create an online video courses .reach students across the globe .and earn money</p>
+        <div class="flex justify-between mr-12 ml-16 mt-5 pt-6">
             <div>
-                <button class="border-white">Teach on udemy</button>
+                <p>
+                    Teach the World online
+                </p>
+                <p>Create an online video courses .reach students across the globe .and earn money</p>
+
             </div>
+
+            <div>
+                <button class="border-white border-[1.2px] p-3 m-5 ml-3">Teach on udemy</button>
+            </div>
+
         </div>
+        <div class="border-[0.54px] border-[#7b7b7b] w-screen"></div>
         <div class="w-full flex gap-10 h-[20%] justify-between items-center px-16 py-5">
             <h1 class="font-extrabold">
                 Top companies choose
@@ -52,7 +58,7 @@ import { Icon } from "@iconify/vue";
             </button>
         </div>
         <div class="flex justify-between px-16 py-5 mt-9 ">
-            <img src="../public/udemyWhite.png" class="w-[91px] h-[34px]" alt="Logo" />
+            <img src="/images/udemy.jpg" class="w-[91px] h-[34px]" alt="Logo" />
             <p class="text-[10pt]">© 2024 Udemy, Inc.</p>
         </div>
     </div>

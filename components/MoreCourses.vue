@@ -12,7 +12,7 @@ import { ref, computed } from "vue";
                 More Courses by
                 <strong class="text-[#6447cf] font-extrabold"> Laura Pickel</strong>
             </h1>
-            <div class="flex">
+            <div class="flex gap-4">
                 <div class="w-64">
                     <img src="/images/download.jpg" class="h-30 w-60" />
                     <h1 class="font-extrabold text-[13pt]">

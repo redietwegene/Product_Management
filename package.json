@@ -18,7 +18,9 @@
   },
   "devDependencies": {
     "@iconify-json/bxs": "^1.2.1",
+    "@iconify-json/foundation": "^1.2.0",
     "@iconify-json/hugeicons": "^1.2.1",
+    "@iconify-json/icons8": "^1.2.0",
     "@iconify-json/majesticons": "^1.2.1",
     "@iconify-json/mdi-light": "^1.2.1",
     "autoprefixer": "^10.4.20",
